@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    
+</head>
+<body>
+    <div class="login">
+        <div id="logins">
+        <h2>Quiz</h2>
+
+        <input type="text"  placeholder="write quizInfo" required><br>
+         <button id="listener">Check For The Results</button>
+         <p id="output"></p>       
+</div>
+    
+</div>
+
+<script>
+
+document.getElementById("listener").addEventListener("click", logIn);
+function logIn(){
+
+    quizInfo={ 
+    class:"Lisalab",
+    subject:"JavaScript",
+    date:"16/6/2021"
+};
+setTimeout(logIn,4000)
+let logins = quizInfo;
+
+console.log(document.getElementById("output").innerHTML = `${logins.class},${logins.subject},${logins.date}`);
+};
+
+lisaLab.func();
+// The code will show an output of a "throw error" because  
+</script>
+
+
+</body>
+</html>
+
+
