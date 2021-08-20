@@ -395,7 +395,7 @@ footer {
        font-size: 70px;
    }
    .home .home-content .text-3{
-       font-size: 35px;
+       font-size: 45px;
    }
    .home .home-content a{
        font-size: 23px;
@@ -416,7 +416,7 @@ footer {
        flex: 100%;
    }
    .projects .project-content .card{
-       width: calc(50% - 30px);
+       width: calc(70% - 30px);
        margin-bottom: 20px;
    }
    .projects .project-content img{
