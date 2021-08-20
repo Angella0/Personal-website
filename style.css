@@ -420,8 +420,9 @@ footer {
        margin-bottom: 20px;
    }
    .projects .project-content img{
-      width: calc(100% - 10px);
+      width: calc(100% - 5px);
       margin-bottom: 20px;
+      
   }
 
    .skills .skills-content .column,
@@ -449,7 +450,7 @@ footer {
 }
 @media (max-width: 500px) {
    .home .home-content .text-2{
-       font-size: 50px;
+       font-size: 30px;
    }
    .home .home-content .text-3{
        font-size: 27px;
