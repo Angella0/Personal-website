@@ -318,6 +318,9 @@ section{
 .skills-content .right .react::before{
    width: 30%;
 }
+.skills-content .right .design::before{
+   width: 70%;
+}
 
 
 footer {
