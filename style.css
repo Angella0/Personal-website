@@ -315,6 +315,9 @@ section{
 .skills-content .right .python::before{
    width: 50%;
 }
+.skills-content .right .vue::before{
+   width: 50%;
+}
 .skills-content .right .react::before{
    width: 30%;
 }
